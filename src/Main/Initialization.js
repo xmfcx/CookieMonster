@@ -67,5 +67,5 @@ export default function InitializeCookieMonster() {
     Game.Popup(`Cookie Monster version ${VersionMajor}.${VersionMinor} loaded!`);
   else Game.Notify(`Cookie Monster version ${VersionMajor}.${VersionMinor} loaded!`, '', '', 1, 1);
 
-  Game.Win('Third-party');
+  // Game.Win('Third-party');
 }
